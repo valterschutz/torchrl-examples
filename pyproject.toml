@@ -1,6 +1,6 @@
 [project]
 name = "torchrl-examples"
-version = "0.1.0"
+version = "0.1.1"
 description = "Examples of training RL agents using torchrl-agents."
 readme = "README.md"
 authors = [
@@ -11,7 +11,7 @@ requires-python = ">=3.10"
 dependencies = [
     "gym[classic-control,mujoco]>=0.26.2",
     "torchrl>=0.8.0",
-    "torchrl-agents==0.3.2",
+    "torchrl-agents==0.3.6",
     "tqdm>=4.67.1",
     "wandb[media]>=0.19.10",
 ]

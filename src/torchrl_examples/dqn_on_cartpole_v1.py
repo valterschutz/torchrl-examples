@@ -139,7 +139,7 @@ def main() -> None:
     # Load the agent from the saved model and see if it still performs well
     del agent
     print("Loading agent...")
-    agent = CartpoleV1DQNAgent.load(Path("saved_models/temp"))
+    agent = Agent.load(Path("saved_models/temp"))
 
     with (
         torch.no_grad(),

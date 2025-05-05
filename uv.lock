@@ -1548,14 +1548,15 @@ wheels = [
 
 [[package]]
 name = "torchrl-agents"
-version = "0.3.2"
+version = "0.3.6"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
+    { name = "pyyaml" },
     { name = "torchrl" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/4e/76/2202e2cdfef246604b2d27e474c76cc0c508581fb507c1771b66f57e65de/torchrl_agents-0.3.2.tar.gz", hash = "sha256:e231be747ffad2108ed7bd0d2fe6f77301262c3cddc1914786535e890d3f77c7", size = 41232 }
+sdist = { url = "https://files.pythonhosted.org/packages/71/b8/f80ad7ce28d4fdbf28e128eacfb5f1f7aef102cdd21b3be2f0d0ffb0feff/torchrl_agents-0.3.6.tar.gz", hash = "sha256:1f62630c5dfc61057324f412ce0e9350f03b2b9496408f0194d02adb185b332a", size = 45043 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ef/b3/3f271055b851b245727d6a123806c5ccff75a55ce4c389d88b9209efeed7/torchrl_agents-0.3.2-py3-none-any.whl", hash = "sha256:704a6cad7fa0e62ccd3bd67a5acca67c45d342e99c8997f6774fe385959fcf28", size = 10847 },
+    { url = "https://files.pythonhosted.org/packages/d1/c8/fd88dfea482e970a0f850ec09f34c709c4fb850f91398bbe0461b535ac84/torchrl_agents-0.3.6-py3-none-any.whl", hash = "sha256:ea655b05f56d0d3c0060d5f42f86599fb734368b2a795612c2cb4f1d3b775280", size = 11206 },
 ]
 
 [[package]]
@@ -1579,7 +1580,7 @@ dev = [
 requires-dist = [
     { name = "gym", extras = ["classic-control", "mujoco"], specifier = ">=0.26.2" },
     { name = "torchrl", specifier = ">=0.8.0" },
-    { name = "torchrl-agents", specifier = "==0.3.2" },
+    { name = "torchrl-agents", specifier = "==0.3.6" },
     { name = "tqdm", specifier = ">=4.67.1" },
     { name = "wandb", extras = ["media"], specifier = ">=0.19.10" },
 ]
